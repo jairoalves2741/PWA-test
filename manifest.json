@@ -1,0 +1,6 @@
+{
+    "name": "Super Tasks App",
+    "short_name": "STA",
+    "start_url": "index.html",
+    "display": "standalone"
+}
