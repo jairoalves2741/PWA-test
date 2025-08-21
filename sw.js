@@ -1,6 +1,6 @@
 self.addEventListener("isntall",()=>{
-    caches.open("tasks").then((cace) =>{
-        caches.addAll([
+    caches.open("tasks").then((cache) =>{
+        return cache.addAll([
             "index.html",
             "manifest.json",
             "script.js",
