@@ -1,4 +1,4 @@
-if ("serviceWorker" in navgator) {
+if ("serviceWorker" in navigator) {
     navigator.
     serviceWorker
     .register("sw.js")
