@@ -1,4 +1,4 @@
-self.addEventListener("isntall",()=>{
+self.addEventListener("install",()=>{
     caches.open("tasks").then((cache) =>{
         return cache.addAll([
             "index.html",
