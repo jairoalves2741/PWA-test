@@ -4,3 +4,4 @@ if ("serviceWorker" in navigator) {
     .register("sw.js")
     .then(()=> {console.log("Service WOorker Registrado")});
 }
+
