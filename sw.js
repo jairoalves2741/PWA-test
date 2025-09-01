@@ -1,10 +1,12 @@
 self.addEventListener("install",()=>{
     caches.open("tasks").then((cache) =>{
         return cache.addAll([
-            "index.html",
-            "manifest.json",
-            "script.js",
-            "sw.js"]); 
+            "/PWA-test/index.html",
+            "/PWA-test/manifest.json",
+            "/PWA-test/script.js",
+            "/PWA-test/sw.js",
+            "/PWA-test/icons/"
+        ]); 
     })
 })
 
